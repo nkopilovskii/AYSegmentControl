@@ -64,6 +64,5 @@ class AYSegmentItemConfigurator {
     item?.backgroundColor = state == .selected ? selectedItemsColor : itemsColor
     item?.textColor = state == .selected ? selectedTextColor : textColor
     item?.font = state == .selected ? selectedFont : font
-    item?.font = font
   }
 }
