@@ -34,6 +34,7 @@ public protocol AYSegment where Self: UIControl {
   var itemsColor: UIColor { get set }
   
   var font: UIFont { get set }
+  var selectedFont: UIFont? { get set }
   
   var selectedTextColor: UIColor { get set }
   var selectedItemsColor: UIColor { get set }

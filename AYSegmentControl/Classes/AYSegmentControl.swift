@@ -98,6 +98,16 @@ public class AYSegmentControl: UIControl, AYSegment {
     }
   }
   
+  public var selectedFont: UIFont? {
+    get {
+      return configurator.selectedFont ?? font
+    }
+    
+    set {
+      configurator.selectedFont = newValue
+    }
+  }
+  
   public var selectedTextColor: UIColor {
     get {
       return configurator.selectedTextColor

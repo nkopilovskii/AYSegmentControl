@@ -35,6 +35,8 @@ class AYSegmentItemConfigurator {
   
   var font = UIFont.systemFont(ofSize: 14)
   
+  var selectedFont: UIFont?
+  
   var selectedTextColor = UIColor.black
   
   var selectedItemsColor = UIColor.clear
