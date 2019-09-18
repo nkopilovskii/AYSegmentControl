@@ -63,6 +63,7 @@ class AYSegmentItemConfigurator {
   func update(item: UILabel?, with state: AYSegmentItemState) {
     item?.backgroundColor = state == .selected ? selectedItemsColor : itemsColor
     item?.textColor = state == .selected ? selectedTextColor : textColor
+    item?.font = state == .selected ? selectedFont : font
     item?.font = font
   }
 }
